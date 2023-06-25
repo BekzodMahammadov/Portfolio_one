@@ -1,0 +1,387 @@
+.navbar {
+  box-shadow: -2px 18px 8px -2px rgba(34, 60, 80, 0.03);
+}
+.navbar_btn {
+  border: 1px solid #f53838 !important;
+}
+.header_btn {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    0 1px 1px rgba(0, 0, 0, 0.075) !important;
+  transition: 0.5s ease;
+}
+
+.header_btn:hover {
+  transform: translateY(-3px);
+}
+.begin {
+  box-shadow: 1px 6px 19px 10px rgba(34, 60, 80, 0.03);
+}
+.plan_btn {
+  transition: 0.5s ease;
+  border: 1px solid #f53838 !important;
+}
+.plan_btn:hover {
+  transform: translateY(-3px);
+}
+.subscribe_btn {
+  transition: 0.5s ease;
+}
+.subscribe_btn:hover {
+  transform: translateY(-3px);
+}
+
+.test_Btn {
+  /* width: 64px !important; */
+  padding: 0px 7px;
+  border: 2px solid #f53838 !important;
+  color: #f53838 !important;
+}
+.test_left {
+  margin-left: 800px !important;
+}
+.myCorusel {
+  margin-top: -20px !important;
+}
+.active {
+  color: #f53838 !important;
+}
+.myBtn {
+  color: #f53838 !important ;
+}
+.test {
+  margin-left: -790px !important;
+}
+.prev_btn {
+  margin-left: 100px !important;
+}
+
+.carousel-control-prev {
+  margin-right: -800px !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 100px 20px;
+  }
+  .carousel-control-next {
+    margin-top: 70px;
+    margin-left: -140px !important;
+    margin-right: 40px !important;
+    padding-right: 0px;
+  }
+  .carousel-control-prev {
+    margin-top: 70px;
+    margin-left: -340px !important;
+  }
+  .test {
+    /* margin-top: 20px !important; */
+    margin-left: -600px !important;
+  }
+  .test_cont {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    margin: 40px 40px;
+  }
+  .test_card {
+    width: 100%;
+    margin: 0 auto;
+    height: 210px;
+    margin-bottom: 60px;
+  }
+  .plan_cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    /* margin: 0px 10px; */
+  }
+  .plan_card {
+    width: 90% !important;
+    padding: 60px 60px;
+    margin: 0 auto;
+  }
+
+  .plan_Text {
+    font-size: 16px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .test {
+    /* margin-top: 20px !important; */
+    margin-left: -400px !important;
+  }
+  .carousel-control-next {
+    margin-top: 70px;
+    margin-left: -100px !important;
+    margin-right: 40px !important;
+    padding-right: 0px;
+  }
+  .carousel-control-prev {
+    margin-top: 70px;
+    margin-left: -550px !important;
+  }
+  .carousel-control-next {
+    margin-right: -20px;
+  }
+  .carousel-control-prev {
+    margin-left: -20px;
+  }
+  .hamburger {
+    display: inline-block !important;
+    font-size: 20px;
+  }
+  .signIn {
+    display: none;
+  }
+  .links {
+    display: none;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 100px 20px;
+  }
+  .header .item p {
+    width: 350px;
+  }
+
+  .begin_div {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .begin {
+    padding: 0 40px;
+  }
+  .begin_card {
+    gap: 10px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 40px;
+  }
+
+  .plan_cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 5px;
+  }
+  .plan_card {
+    width: 90% !important;
+    padding: 60px 25px;
+    margin: 0 auto;
+  }
+
+  .plan_Text {
+    font-size: 14px;
+    width: 200px;
+  }
+  /* .global_net {
+    padding-bottom: 100px;
+  } */
+  .global_Cont {
+    padding: 0 40px;
+  }
+  .test_cont {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    margin: 40px 40px;
+  }
+  .test_card {
+    width: 100%;
+    margin: 0 auto;
+    height: 290px;
+  }
+  .subscribe {
+    width: 500px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+  .footer_cont {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+  }
+  .cont_foot {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .links {
+    display: none;
+  }
+  .navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: auto !important;
+    grid-template-rows: auto auto !important;
+    gap: 20px;
+  }
+  .header .item h1,
+  p {
+    text-align: center;
+  }
+  .head_btn_div {
+    display: flex;
+    justify-content: center;
+  }
+  .begin_div {
+    padding-left: 20px !important;
+    padding-right: 10px !important;
+  }
+  .begin {
+    width: 380px;
+    padding: 0 20px !important;
+    /* margin-left: -20px; */
+  }
+  .begin_card {
+    gap: 20px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: auto !important;
+    grid-template-rows: auto auto !important;
+  }
+  .features .features_text {
+    text-align: center;
+    /* max */
+  }
+  .feat_text {
+    margin-left: 20px;
+  }
+  .plan_cont {
+    display: grid;
+    grid-template-rows: auto auto auto !important;
+    grid-template-columns: auto !important;
+    column-gap: 5px;
+  }
+  .plan_card {
+    width: 90% !important;
+    padding: 60px 100px !important;
+  }
+  .plan_Text {
+    font-size: 16px !important;
+  }
+  .global_net {
+    padding-bottom: 180px;
+  }
+  .global_Cont {
+    display: grid;
+    grid-template-columns: auto auto !important;
+    grid-template-rows: auto auto !important;
+  }
+  .test_cont {
+    display: grid;
+    grid-template-columns: auto !important;
+    grid-template-rows: auto auto auto !important;
+    /* height: 100px !important; */
+  }
+  .test_card {
+    width: 90%;
+    margin: 0 auto;
+    height: 200px !important;
+  }
+  .subscribe {
+    width: 400px !important;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+  .footer_cont {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+  }
+  .cont_foot {
+    display: grid;
+    grid-template-columns: auto auto !important;
+    grid-template-rows: auto auto !important;
+    gap: 70px;
+  }
+
+  .carousel-control-next {
+    margin-top: 500px;
+    margin-left: -140px !important;
+    margin-right: 50px !important;
+    padding-right: 0px;
+  }
+  .carousel-control-prev {
+    margin-top: 500px;
+    margin-left: -840px !important;
+  }
+  .test {
+    /* margin-top: -20px !important; */
+    margin-left: -100px !important;
+  }
+  .test_card {
+    width: 100%;
+    margin: 0 auto;
+    height: 210px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .begin_div {
+    padding-left: 20px !important;
+    padding-right: 10px !important;
+  }
+  .begin {
+    width: 350px !important;
+    padding: 0 20px !important;
+    /* margin-left: -20px; */
+  }
+  .subscribe {
+    width: 300px !important;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 10px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .begin_div {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .begin {
+    width: 300px !important;
+    padding: 0 10px !important;
+    /* margin-left: -20px; */
+  }
+  .plan_card {
+    width: 90% !important;
+    padding: 60px 10px !important;
+  }
+}
